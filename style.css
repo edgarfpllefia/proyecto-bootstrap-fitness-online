@@ -1,0 +1,340 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  padding: 10px 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #7036ba;
+}
+
+.nav-wrapper {
+  background-color: #7036ba;
+}
+
+.navbar-brand {
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.start {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.btn-hero {
+  background-color: #00bfb4;
+  padding: 17px 50px;
+  font-size: 25px;
+  margin-bottom: -35px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-hero2 {
+  background-color: #00bfb4;
+  padding: 17px 50px;
+  font-size: 25px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-hero3 {
+  background-color: transparent;
+  padding: 15px 30px;
+  font-size: 20px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  border: 2px solid white !important;
+}
+
+.btn-hero:hover {
+  background-color: #00a88e;
+}
+
+.about {
+  background-color: white;
+}
+
+.about h2 {
+  font-size: 40px;
+}
+
+.how-to-start {
+  padding: 50px 20px;
+}
+
+.how-to-start h2 {
+  font-size: 40px;
+}
+
+.how-to-start p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.how-to-start .texto-numeros {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.numeros {
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.features {
+  background-color: white;
+}
+
+.features h2 {
+  font-size: 40px;
+}
+
+.features h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.features p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.pricing h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.pricing h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.pricing p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.pricing span {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.pricing .tarjeta {
+  background-color: #a76bf2;
+  border-radius: 5px;
+  padding: 25px;
+  color: white;
+  min-height: 405px;
+  max-height: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing .tarjeta h4 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pricing .tarjeta ul {
+  font-size: 16px;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.pricing .tarjeta ul li::before {
+  content: "• ";
+}
+
+.pricing .precio {
+  margin-bottom: 20px;
+}
+
+.pricing .precio span {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.feedback {
+  background-color: white;
+}
+
+.feedback h2 {
+  font-size: 40px;
+}
+
+.feedback-slide {
+  padding: 0 60px;
+}
+
+.feedback-texto {
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.feedback-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: 1px solid #d9d1e3;
+}
+
+.feedback-instagram {
+  color: #7036ba;
+  font-size: 14px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 30px;
+  height: 35px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+}
+
+/*Lo tengo para la 3ra tarjeta*/
+
+@media (min-width: 992px) {
+  .tarjeta-pro ul {
+    margin-bottom: -30px;
+  }
+}
+
+/******************************/
+
+.faq {
+  background-color: #7036ba;
+}
+
+.faq-accordion .accordion-item {
+  background-color: transparent !important;
+  border: none;
+}
+
+.faq-accordion .accordion-button {
+  background-color: transparent !important;
+  color: white;
+  box-shadow: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: white;
+  box-shadow: none;
+}
+
+.faq-accordion .accordion-body {
+  background-color: transparent !important;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.faq-accordion .accordion-button::after {
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M2 5l6 6 6-6'/%3E%3C/svg%3E") !important;
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M2 11l6-6 6 6'/%3E%3C/svg%3E") !important;
+}
+
+.faq-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #00bfb4;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+/******************************/
+
+.feedback {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.faq h2 {
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.faq button {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+
+
+.start-training {
+  background-color: white;
+}
+
+.start-training h2 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.p-start {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.formulario {
+  padding: 24px 8px;
+}
+
+.form-control:focus {
+  border-color: #00bfb4;
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 180, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: white !important;
+  border-color: #adb5bd !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%2300bfb4' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e") !important;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.footer .footer-fitness {
+  font-size: 20px;
+  line-height: 25px;
+}
