@@ -90,6 +90,26 @@ h1 {
 .numeros {
   font-size: 75px;
   font-weight: 600;
+  line-height: 1;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .pricing .tarjeta {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .numeros {
+    align-self: flex-start;
+  }
+
+  .pricing .tarjeta {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .features {
@@ -295,8 +315,6 @@ h1 {
   font-weight: 700;
 }
 
-
-
 .start-training {
   background-color: white;
 }
@@ -337,4 +355,29 @@ h1 {
 .footer .footer-fitness {
   font-size: 20px;
   line-height: 25px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  h2,
+  .about h2,
+  .how-to-start h2,
+  .features h2,
+  .feedback h2,
+  .faq h2,
+  .start-training h2,
+  .pricing h2 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .how-to-start h2,
+  .pricing h2,
+  .start-training h2 {
+    padding-bottom: 30px;
+  }
 }
