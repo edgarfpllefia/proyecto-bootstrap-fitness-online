@@ -10,7 +10,14 @@ body {
 }
 
 .nav-wrapper {
-  background-color: #7036ba;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.hero {
+  padding-top: 56px;
 }
 
 .navbar-brand {
