@@ -128,6 +128,13 @@ h1 {
     padding: 200px 150px 200px 30px;
   }
 
+}
+
+@media (min-width: 1200px) {
+  .hero-texto-xl {
+    padding: 200px 0px 200px 30px;
+  }
+
   .col-lg-4.px-0 {
     overflow: hidden;
     display: flex;
