@@ -15,6 +15,15 @@ body {
   z-index: 10;
 }
 
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #7036ba;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+}
+
 .hero {
   padding-top: 56px;
 }
