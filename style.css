@@ -131,7 +131,7 @@ h1 {
 
 @media (min-width: 1200px) {
   .hero-texto-xl {
-    padding: 200px 0px 200px 30px;
+    padding: 200px 0px 200px calc((100vw - 1300px) / 2);
   }
 
   .col-lg-4.px-0 {
