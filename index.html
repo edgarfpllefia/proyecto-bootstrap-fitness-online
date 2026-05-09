@@ -19,11 +19,12 @@
     />
   </head>
   <body>
+    <a class="visually-hidden-focusable" href="#main-content">Saltar al contenido principal</a>
     <div class="container-fluid nav-wrapper">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container px-4">
           <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-            <img src="img/logo-nav.svg" alt="" />
+            <img src="img/logo-nav.svg" alt="Fitness Online logo" />
             fitness <span class="fw-bold">online</span>
           </a>
           <button
@@ -64,6 +65,7 @@
         </div>
       </nav>
     </div>
+    <main id="main-content">
     <div class="container-fluid hero px-0">
       <div class="row g-0">
         <div
@@ -95,7 +97,7 @@
           <div class="d-lg-none">
             <img
               src="img/ejercicio.png"
-              alt=""
+              alt="Persona haciendo ejercicio en casa"
               class="w-100 object-fit-cover"
             />
           </div>
@@ -104,36 +106,36 @@
         <div class="col-lg-4 col-xl-6 d-none d-lg-block px-0">
           <img
             src="img/ejercicio.png"
-            alt=""
+            alt="Persona haciendo ejercicio en casa"
             class="w-100 h-100 object-fit-cover"
           />
         </div>
       </div>
     </div>
 
-    <div class="container-fluid about py-5">
+    <section class="container-fluid about py-5" aria-labelledby="about-heading" id="aboutUs">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2 class="text-center fw-bold pb-5">About Us</h2>
+            <h2 id="about-heading" class="text-center fw-bold pb-5">About Us</h2>
           </div>
         </div>
         <div class="row g-4">
           <div class="col-12 col-lg-6">
-            <img src="img/videoAbout.png" alt="" class="w-100" />
+            <img src="img/videoAbout.png" alt="Vídeo sobre Fitness Online" class="w-100" />
           </div>
           <div class="col-12 col-lg-6">
-            <img src="img/videoAbout.png" alt="" class="w-100" />
+            <img src="img/videoAbout.png" alt="Vídeo sobre Fitness Online" class="w-100" />
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container-fluid how-to-start py-5">
+    <section class="container-fluid how-to-start py-5" aria-labelledby="how-heading" id="howToStart">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-4">
-            <h2 class="text-white fw-bold">How To Start</h2>
+            <h2 id="how-heading" class="text-white fw-bold">How To Start</h2>
             <p class="text-white">
               It's easy to start training right now without going anywhere, just
               in your room, having without missing important things and coach
@@ -165,16 +167,16 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid features py-5">
+    </section>
+    <section class="container-fluid features py-5" aria-labelledby="features-heading" id="features">
       <div class="container">
         <div class="row justify-content-lg-center">
           <div class="col-12 text-center">
-            <h2 class="text-center fw-bold pb-5">Features</h2>
+            <h2 id="features-heading" class="text-center fw-bold pb-5">Features</h2>
           </div>
           <div class="col-12 col-lg-4 d-flex gap-3 align-items-center mb-4">
             <div>
-              <img src="img/comfortable.svg" alt="" />
+              <img src="img/comfortable.svg" alt="Icono de lugar cómodo" />
             </div>
             <div>
               <h4>Comfortable Place</h4>
@@ -186,7 +188,7 @@
           </div>
           <div class="col-12 col-lg-4 d-flex gap-3 align-items-center mb-4">
             <div>
-              <img src="img/professional.svg" alt="" />
+              <img src="img/professional.svg" alt="Icono de entrenador profesional" />
             </div>
             <div>
               <h4>Professional Trainers</h4>
@@ -198,7 +200,7 @@
           </div>
           <div class="col-12 col-lg-4 d-flex gap-3 align-items-center mb-5">
             <div>
-              <img src="img/individual.svg" alt="" />
+              <img src="img/individual.svg" alt="Icono de enfoque individual" />
             </div>
             <div>
               <h4>Individual Approach</h4>
@@ -215,12 +217,12 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid pricing py-5">
+    </section>
+    <section class="container-fluid pricing py-5" aria-labelledby="pricing-heading" id="pricing">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2 class="text-white">Pricing</h2>
+            <h2 id="pricing-heading" class="text-white">Pricing</h2>
           </div>
           <div class="col-12 col-lg-4 mb-4">
             <div class="tarjeta">
@@ -237,6 +239,7 @@
                 <button
                   type="button"
                   class="btn btn-hero3 text-white rounded-pill fw-bold"
+                  aria-label="Elegir plan Start"
                 >
                   Choose
                 </button>
@@ -260,6 +263,7 @@
                 <button
                   type="button"
                   class="btn btn-hero3 text-white rounded-pill fw-bold"
+                  aria-label="Elegir plan Middle"
                 >
                   Choose
                 </button>
@@ -284,6 +288,7 @@
                 <button
                   type="button"
                   class="btn btn-hero3 text-white rounded-pill fw-bold"
+                  aria-label="Elegir plan Pro"
                 >
                   Choose
                 </button>
@@ -292,17 +297,17 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid feedback py-5">
+    </section>
+    <section class="container-fluid feedback py-5" aria-labelledby="feedback-heading" id="feedback">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
-            <h2 class="fw-bold">Feedback About Us</h2>
+            <h2 id="feedback-heading" class="fw-bold">Feedback About Us</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <div id="carouselFeedback" class="carousel slide">
+            <div id="carouselFeedback" class="carousel slide" role="region" aria-label="Testimonios de clientes" aria-live="polite">
               <div class="carousel-inner">
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
@@ -516,12 +521,12 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid faq py-5">
+    </section>
+    <section class="container-fluid faq py-5" aria-labelledby="faq-heading" id="faq">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-4">
-            <h2 class="fw-bold text-white">FAQ</h2>
+            <h2 id="faq-heading" class="fw-bold text-white">FAQ</h2>
           </div>
           <div class="col-12">
             <div
@@ -640,12 +645,12 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid start-training pt-5 pb-3">
+    </section>
+    <section class="container-fluid start-training pt-5 pb-3" aria-labelledby="start-heading">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2>Start Training</h2>
+            <h2 id="start-heading">Start Training</h2>
           </div>
           <div class="col-12 text-center">
             <p class="p-start">
@@ -656,15 +661,17 @@
           <div class="col-12 col-md-10 mx-auto">
             <div class="formulario">
               <div class="mb-4">
-                <label class="form-label">Your Phone</label>
-                <input type="tel" class="form-control" placeholder="+1_" />
+                <label class="form-label" for="phone">Your Phone</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+1_" autocomplete="tel" />
               </div>
               <div class="mb-4">
-                <label class="form-label">Your Name</label>
+                <label class="form-label" for="name">Your Name</label>
                 <input
                   type="text"
+                  id="name"
                   class="form-control"
                   placeholder="Your name"
+                  autocomplete="name"
                 />
               </div>
               <div class="form-check mb-4">
@@ -688,7 +695,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    </main>
     <footer>
       <div class="container-fluid footer pt-4 text-white">
         <div class="container">
