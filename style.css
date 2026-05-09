@@ -84,6 +84,19 @@ h1 {
   border: 2px solid white !important;
 }
 
+.btn-hero3:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.btn-hero:focus-visible,
+.btn-hero2:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
 .btn-hero:hover {
   background-color: #00a88e;
 }
@@ -331,6 +344,18 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+.faq-accordion .accordion-button:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.carousel-control-prev:focus-visible,
+.carousel-control-next:focus-visible {
+  outline: 3px solid #7036ba;
+  outline-offset: 3px;
 }
 
 .faq-accordion .accordion-button::after {
