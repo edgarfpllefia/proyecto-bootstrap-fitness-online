@@ -36,12 +36,18 @@ body {
 
 .navbar-brand {
   font-size: 26px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.9), 0 1px 4px rgba(0, 0, 0, 0.9);
 }
 
 h1 {
   font-size: 40px;
   line-height: 60px;
   margin-top: 30px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .start {
